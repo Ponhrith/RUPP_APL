@@ -3,9 +3,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        int mark = 0;
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the mark: ");
-        int mark = input.nextInt();
+        mark = input.nextInt();
 
         if (mark >= 50){
             System.out.print("PASS\n");
